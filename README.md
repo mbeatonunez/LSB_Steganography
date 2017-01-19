@@ -8,7 +8,7 @@ A simple console C program that uses LSB shifting to hide a message inside of a 
 
 3 The program goes into the image data, or Pixel Array, protion of the image file
 
-4 While reading the image and message one byte at a time, the program places each bit of the message into the LSB of each bite of the image file's pixel array portion.
+4 While reading the image and message one byte at a time, the program copies each bit of the message file and places it into the LSB of each byte of the image file's pixel array portion.
 
 5 The message file is erased and the output file is generated.
 
@@ -18,3 +18,5 @@ Essentially, you could send the output file to someone else, and as long as they
 
 Since this is using LSB shifting, keep in mind that the message file has to be 8x smaller then the image data portion of the file.
 The name of the message, image, files have to be specified in the code before compiling. To make things easer, they should also be located in the same directory as the program.
+
+Look at the [https://en.wikipedia.org/wiki/BMP_file_format bmp wiki] page to learn abouhow a bmp file is broken do
