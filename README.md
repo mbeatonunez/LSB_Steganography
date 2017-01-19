@@ -19,4 +19,4 @@ Essentially, you could send the output file to someone else, and as long as they
 Since this is using LSB shifting, keep in mind that the message file has to be 8x smaller then the image data portion of the file.
 The name of the message, image, files have to be specified in the code before compiling. To make things easer, they should also be located in the same directory as the program.
 
-Look at the [https://en.wikipedia.org/wiki/BMP_file_format bmp wiki] page to learn abouhow a bmp file is broken do
+Look at the [bmp wiki](https://en.wikipedia.org/wiki/BMP_file_format) page to learn abouhow a bmp file is broken do
