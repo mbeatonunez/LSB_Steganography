@@ -3,9 +3,13 @@ A simple console C program that uses LSB shifting to hide a message inside of a 
 
 ## How does it work?
 1 The program loads the message, in this case a .bmp file made in MS Paint.
+
 2 The program loads the image where the file will be hidden.
+
 3 The program goes into the image data, or Pixel Array, protion of the image file
+
 4 While reading the image and message one byte at a time, the program places each bit of the message into the LSB of each bite of the image file's pixel array portion.
+
 5 The message file is erased and the output file is generated.
 
 ## Notes:
