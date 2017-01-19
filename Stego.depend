@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1448595199 source:c:\users\moises\desktop\security class\stego\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mystego.h"
+
+1448511893 source:c:\users\tashia\desktop\security class\stego\stego\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1448593607 source:c:\users\moises\desktop\security class\stego\mystego.c
+	<stdio.h>
+	<stdlib.h>
+	"mystego.h"
+
+1448595335 c:\users\moises\desktop\security class\stego\mystego.h
+
+1448674022 source:c:\users\tashia\desktop\security class\stego\mystego.c
+	<stdio.h>
+	<stdlib.h>
+	"mystego.h"
+
+1448675889 c:\users\tashia\desktop\security class\stego\mystego.h
+
+1448675889 source:c:\users\tashia\desktop\security class\stego\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mystego.h"
+
